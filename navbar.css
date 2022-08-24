@@ -1,0 +1,121 @@
+
+body{
+    margin: 0;
+    padding: 0; 
+}
+#main-section{
+    background-image: url("https://static.fatsecret.com/static/images/splash/Sunrise_BG_01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 730px;
+    width: 100%;
+    background-position: left 0px;
+}
+#inner-section{
+    width: 70%;
+    height: 6552px;
+    border: 1px solid white;
+    margin: auto;
+}
+#nav-bar{
+    width:100%;
+    height:60px;
+    border: 0px solid white;
+    margin:auto;
+    display: flex;
+    margin-top: 16px;
+    /* color: white; */
+    justify-content: space-between;
+    
+}
+.achor{
+   
+   border: 0px solid orange;
+   display: flex;
+   height: 25.5px;
+   justify-content: space-between;
+   width:40%;
+   align-items: center;
+    
+}
+.anchor1{
+    border: 0px solid orange;
+   display: flex;
+   height: 25.5px;
+   justify-content: right;
+   /* width:9%; */
+   text-decoration: none;
+   color:white;
+   align-items: center;
+}
+.anchor1 >img{
+    margin-left: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: helvetica, Arial;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    color: white;
+    font-size: 43px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+}
+h1+img{
+    width:400px;
+    height: 80px;
+    margin-bottom: 50px;
+    /* padding: 0px 0px 46px; */
+   
+}
+#facebook{
+    width:400px;
+    height: 40px;
+    color: white;
+    background-color: #3766B8;
+    margin-bottom: 16px; 
+    background-image: url(https://static.fatsecret.com/static/images/social/logo_facebook.svg);
+    background-position-x: 8px;
+    background-position-y: 8px; 
+    text-indent: 32px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: 'roboto',sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    
+}
+#google{
+    width:400px;
+    height: 40px;
+    color: white;
+    background-color: #4285f4;
+    margin-bottom: 16px; 
+    background-image: url(https://a.ftscrt.com/static/images/social/logo_google.svg);
+    background-position-x: 1px;
+    background-position-y: 1px; 
+    text-indent: 40px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: 'roboto',sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px; 
+    border: none; 
+}
+p{
+    font-size: 17px;
+    color: white;
+    font-family: Helvetica, Arial;
+    margin-top: -4px;
+}
