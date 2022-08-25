@@ -1,22 +1,30 @@
 
+
 body{
     margin: 0;
     padding: 0; 
+    background-color: #FFF;
+    font-family: Helvetica,Arial;
+   
 }
 #main-section{
     background-image: url("https://static.fatsecret.com/static/images/splash/Sunrise_BG_01.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 730px;
     width: 100%;
     background-position: left 0px;
+   
 }
 #inner-section{
     width: 70%;
-    height: 6552px;
-    border: 1px solid white;
+    height: 670px;
+    border: 1px solid gray;
     margin: auto;
-}
+    border:none;
+  
+} 
 #nav-bar{
     width:100%;
     height:60px;
@@ -118,4 +126,148 @@ p{
     color: white;
     font-family: Helvetica, Arial;
     margin-top: -4px;
+    display: block;
+    line-height: 25px;
+    text-shadow: 1px 1px black;
+}
+input{
+    display: inline-block;
+    border: 1px solid #999;
+    padding: 3px;
+    vertical-align: top;
+    font-size: 16px;
+    height: 35px;
+    line-height: 32px;
+    width: 182px;
+    margin-right: 12px;
+    text-indent: 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+input+button{
+    color: White;
+    background-color: #32B34C;
+    border: 1px solid #336F3F;
+    font-weight: bold;
+    font-size: 16px;
+    height: 43px;
+    width: 187px;
+    cursor: pointer;
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.shadow-1{
+    font-size: 15px;
+    text-shadow: 1px 1px black;
+}
+#sign{
+    font-size: 14px;
+}
+.shadow-2 {
+    text-shadow: 2px 2px black;
+    font-size: 21px;
+    line-height: 35px;
+    margin-top: -10px;
+}
+.shadow-2+div{
+    margin-top: -20px;
+}
+.greenBar {
+    background-color: #32B34C;
+   
+} 
+ td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+table {
+    /* border-collapse: collapse; */
+    text-indent: initial;
+    border-spacing: 2px;
+
+}
+.mainSection {
+    width: 1030px;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: relative;
+    font-size: 13px;
+}
+h2{
+    font-size: 42px;
+    font-family: Helvetica, Arial ;
+    color: white;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: -5px;
+}
+.greenWall {
+    background-color: #32B34C;
+    min-width: 1030px;
+}
+h2+p{
+    font-size: 21px;
+    font-family:  Helvetica, Arial;
+    line-height: 35px;
+    margin-top: -25px;
+    text-shadow: none;
+}
+.colorBar{
+    height: 32px;
+    display: inline-block;
+    zoom: 1;
+    background-color: #EDF1E9;
+    min-width: 1030px;
+    width: 100%;
+    text-align: center;
+}
+.transLogo{
+    margin-top: -30px;
+    text-align: center;
+}
+#greenlogo{
+    width: 100%;
+    text-align: center;
+}
+.whiteWall {
+    background-color: #EDF1E9;
+    min-width: 1030px;
+}
+.colorBar {
+    height: 32px;
+    display: inline-block;
+    zoom: 1;
+}
+.transLogo {
+    margin-top: -30px;
+}
+h2.noStyle {
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+.green {
+    color: #32B34C;
+}
+.headerText {
+    font-size: 43px;
+}
+
+.mainSection {
+    width: 1030px;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: relative;
+}
+.mainSectionInnerContent{
+    display: block;
 }
