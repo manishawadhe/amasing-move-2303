@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign in.css">
+</head>
+<body>
+    <div id="main">
+    <div id="main-section">
+        <img src="https://a.ftscrt.com/static/images/splash/FS_Logo_SplashScreen.png" alt="imag">
+        <div>
+            <button id="facebook">Continue With facebook</button>
+           <br>
+            <button id="google">Continue With Google</button>
+        </div>
+        <p>or sign in with your FatSecret account</p>
+         
+         <input id="input1" type="text" placeholder="Email or Member Name">
+         <br>
+         <input id="input2" type="text" placeholder="password">
+        <button onclick="sign()">Sign In</button>
+        <br>
+        <a href="">Forget password?</a>
+       <P>Remeber me</P>
+       <h2>Register Today! 100% free!</h2>
+       <p class="p1">Become a member!</p>
+       <a href="">Create Account</a>
+    </div>
+    <div id="footer">
+        <p class="app">Get the App</p>
+        <div id="margin">
+            <img src="https://a.ftscrt.com/static/images/mobi/ios/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="">
+            <img src="https://a.ftscrt.com/static/images/mobi/android/en_get_2.svg" alt="">
+        </div>
+       
+    </div>
+   
+</div>
+</body>
+</html>
+
+<script>
+
+function sign(){
+    let res1 = document.getElementById("input1").value;
+    let res2 = document.getElementById("input2").value;
+    if(res1=="wadhemanisha@gmail.com" && res2==123456){
+        alert("Signup Successfully")
+    }
+    else{
+        alert("Signup Fail")
+    }
+
+}
+</script>
+ 
