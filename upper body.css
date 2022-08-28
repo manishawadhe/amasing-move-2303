@@ -561,15 +561,15 @@ button {
     text-transform: uppercase;
 }
 
-@media all and (min-width:481px) and (max-width:761){
+/* @media all and (min-width:481px) and (max-width:761){
     body{
         width:800px;
     }
     blackWall {
         min-width: 800px;
         
-}
+} */
 
-@media all and (min-width:320px) and (max-width:480px){
+/* @media all and (min-width:320px) and (max-width:480px){
     
-}
+} */
