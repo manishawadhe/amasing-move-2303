@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div id="main-sec">
+        <div id="class">
+                <img src="https://a.ftscrt.com/static/images/def20/Fatsecret_logo.png" alt="image">
+                <p id="p1">My FatSecret Account</p>
+            </div>
+            <hr>
+
+
+        <form>
+        <div id="middle">
+            <p My class="ptag">My Details</p>
+
+        <table>
+            <tr>
+                <td> Gender:</td>
+                <td>
+                    <Select id="select1">
+                    <option value="">Male</option>
+                    <option value="">Femal</option>
+                </Select>
+            </td>
+            </tr>
+            <tr>
+                <td>Current Weight:</td>
+                <td> <input id="weight" type="text" placeholder="wt. in kg"></td>
+            </tr>
+            <tr>
+                <td>Height:</td>
+                <td><input id="height" type="number" placeholder="Height in cm"></td>
+            </tr>
+            <tr>
+                <td> Date of Birth:</td>
+                <td><input id="date" type="date" placeholder="Enter date"></td>
+            </tr>
+            <tr>
+                <td> Activity Level:</td>
+                <td>
+                    <select name="" id="select2">
+                    <option value="">Sedantary</option>
+                    <option value="">Low Active</option>
+                    <option value="">Active</option>
+                    <option value="">Very Active</option>
+                </select>
+            </td>
+            </tr>
+        </table>
+
+            <p class="ptag">My Goals</p>
+        <table>
+            <tr>
+                <td>Diet Goal:</td>
+                <td><select name="" id="select3">
+                    <option value="">Weight Gain</option>
+                    <option value="">Slow Weight Gain</option>
+                    <option value="">Maintain My Current Weigth</option>
+                    <option value="">Slow Weight Loss</option>
+                    <option value="">Weight Loss</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Goal Weight:</td>
+                <td><input id="goal" type="number" placeholder="wt. in KG"></td>
+            </tr>
+        </table>
+
+            <p class="ptag">FatSecret Account</p>
+            <table>
+                <tr>
+                    <td>Member Name:</td>
+                    <td><input id="name" type="text" placeholder="Enter Name"></td>
+                </tr>
+
+                <tr>
+                    <td>password: </td>
+                    <td> <input id="pass" type="number" placeholder="Enter passWord"></td>
+                </tr>
+                <tr>
+                    <td>Email Address:</td>
+                    <td><input id="email" type="text" placeholder="Enter Email"></td>
+                </tr>
+            </table>
+            <br>
+            
+            <button id="submit" type="submit">Submit</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
+ 
+<script>
+    document.querySelector("form").addEventListener("submit",fun)
+    function fun(e){
+     e.preventDefault();
+     let Gender = document.querySelector("#select1").value;
+     let weight = document.querySelector("#weight").value; 
+     let height = document.querySelector("#height").value;
+     let date = document.querySelector("#date").value;
+     let Activity = document.querySelector("#activity").value;
+     let goal = document.querySelector("#select2").value;
+     let  g_weight = document.querySelector("#goal").value;
+     let  name = document.querySelector("#name").value;
+     let  passWord = document.querySelector("#pass").value;
+     let  Email = document.querySelector("#email").value;
+     console.log(Genger,weight,height,date,Activity,goal,g_weight,name,passWord,Email)
+
+    }
+</script>

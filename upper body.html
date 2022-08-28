@@ -4,70 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="navbar.css">
     <title>Document</title>
+    <link rel="stylesheet" href="upper body.css">
 </head>
 <body>
-    <div id="main-section">
-        <div id="inner-section">
-            <div id="nav-bar">
-               <div class="achor">
-                    <a href="">FOODS</a>
-                    <a href="">RECIPIES</a>
-                    <a href="">FITNESS</a>
-                    <a href="">COMMUNITY</a>
-               </div>
-               <div class="anchor1">
-                    <a href="">INDIA</a>
-                    <img src="https://static.fatsecret.com/static/images/markets/smallFlags/IN.png" alt="logo">
-               </div>
-            </div>
-            <h1>Your Key to Success</h1>
-            <img src="https://a.ftscrt.com/static/images/splash/FS_Logo_SplashScreen.png" alt="imag">
-            
-            <div>
-                <button id="facebook">Continue With facebook</button>
-               <br>
-                <button id="google">Continue With Google</button>
-            </div>
-            <p>Create account using email</p>
-            <input type="text" placeholder="Email Address">
-            <button>Start Now</button>
-
-            <p class="shadow-1" style="margin-top:17px; height:50px">Already a Member? <a data-bs-toggle="modal" id="sign"  href="/Auth.aspx?pa=s"><strong>Sign In</strong></a></p>
-            <p class="shadow-2" style="height:70px">
-                Start losing weight the healthy way with easy to use apps, online tools and support.
-            </p>
-
-            <div style="text-align:center;width:100%">
-                <a target="blank" href="https://itunes.apple.com/in/app/calorie-counter-by-fatsecret/id347184248?mt=8">
-                    <img src="https://a.ftscrt.com/static/images/mobi/ios/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" height="34">
-                </a>&nbsp;&nbsp;
-                <a target="blank" href="https://play.google.com/store/apps/details?id=com.fatsecret.android">
-                    <img src="https://a.ftscrt.com/static/images/mobi/android/en_get_2.svg" height="34">
-                </a>
-            </div>
-
+    <div class="blackWall" style="background-image: url(&quot;https://a.ftscrt.com/static/images/splash/Sunrise_BG_01.jpg&quot;); background-size: cover; background-repeat: no-repeat; background-position: left 0px;">
+        <div class="mainSection" style="padding-top:0px;padding-bottom:0px">
+            <div class="mainSectionInnerContent">
+                <div class="horizontalMenu">
+                    <ul>
+                    
+                        <li>
+                            <a class="white sectionLink" title="Foods" href="/calories-nutrition/"><strong>Foods</strong></a>
+                        </li>
+                    
+                        <li>
+                            <a class="white sectionLink" title="Recipes" href="/Default.aspx?pa=recsh"><strong>Recipes</strong></a>
+                        </li>
+                    
+                        <li>
+                            <a class="white sectionLink" title="Fitness" href="/fitness/"><strong>Fitness</strong></a>
+                        </li>
+                    
+                        <li>
+                            <a class="white sectionLink" title="Community" href="/Community.aspx?pa=fms"><strong>Community</strong></a>
+                        </li>
+                    
+                        <li style="float:right;margin:0">
+                            <a href="/Default.aspx?pa=sites" class="white sectionLink">
+                                <span style="line-height:26px;vertical-align:top;padding-right:5px">India</span>
+                                <img src="https://a.ftscrt.com/static/images/markets/smallFlags/IN.png" height="26px" width="27px">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <h1 class="headerText white noStyle" style="height:73px">Your Key to Success</h1>
+                <img alt="FatSecret" src="https://a.ftscrt.com/static/images/splash/FS_Logo_SplashScreen.png" style="padding-bottom:46px">
+                
+                <div style="display:table;width:377px">
+    
+    <style type="text/css">   
+        .socialButton {
+            background-repeat:no-repeat;
+            border-radius:2px;
+            color:white;
+            cursor:pointer;
+            height:40px;
+            font-family:'Roboto', sans-serif;
+            font-size:14px;
+            line-height:40px;
+            text-align:center;
+            width:378px;
+        }
+        .facebook {
+            background-color:#3766B8;
+            background-image:url('https://a.ftscrt.com/static/images/social/logo_facebook.svg');
+            background-position-x:8px;
+            background-position-y:8px;
+            margin-bottom:16px;
+            text-indent:32px;
+        }
+        .facebook:hover {
+            background-color:#2F589E;
+        }
+        .google {
+            background-color:#4285F4;
+            background-image:url('https://a.ftscrt.com/static/images/social/logo_google.svg');
+            background-position-x:1px;
+            background-position-y:1px;
+            text-indent:40px;
+        }
+        .google:hover {
+            background-color:#3367D6;
+        }
+    </style>
+    
+    
+    <div id="ctl04_SocialCaptureControl1_Registration">
+        
+        <div style="margin:0 auto;text-align:center;">
+            <div class="socialButton facebook" onclick="sendFacebookResponse();">Continue with Facebook</div>
+            <div id="googleCustom1" class="socialButton google">Continue with Google</div>
         </div>
     
-             <table style="width:100%; border-collapse:collapse">
-                <tbody>
-                    <tr>
-                    <td width="50%">&nbsp;</td>
-                    <td valign="bottom" style="padding:0px" rowspan="2"><img src="https://a.ftscrt.com/static/images/splash/Logo_Tab_Reverse_Green.png" style="vertical-align:bottom"></td>
-                    <td width="50%">&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="greenBar">&nbsp;</td>
-                    <td class="greenBar">&nbsp;</td>
-                </tr>
-            </tbody>
-        </table> 
     </div>
-
+     
+                </div>
+                <div style="text-align:left">
+                    <p class="white copyText shadow-1" style="padding-top:8.5px;padding-bottom:8.5px">Create account using email</p>
+                    <input name="ctl00$ctl04$Email" type="text" id="ctl04_Email" class="email" placeholder="Email Address">
+                    <button type="button" class="greenButton" id="EmailRegButton" onClick="window.location.href= 'C:\Users\krish\Desktop\Project-code\amasing-move-2303\form.html';"> Start Now</button>
+                    <p class="white copyText shadow-1" style="margin-top:17px;height:50px">Already a Member? <a data-bs-toggle="modal" data-bs-target="#signinModal" href="C:\Users\krish\Desktop\Project-code\amasing-move-2303\sign in .html" class="white"><strong>Sign In</strong></a><a data-bs-toggle="modal" data-bs-target="#signinModal" href="C:\Users\krish\Desktop\Project-code\amasing-move-2303\form.html" class="white"><strong>Resister Now</strong></a></p> 
+                    
+                    <p class="white secondaryText shadow-2" style="height:80px">
+                        Start losing weight the healthy way with easy to use apps, online tools and support.
+                    </p>
+                    <div style="text-align:center;width:100%">
+                        <a target="blank" href="https://itunes.apple.com/in/app/calorie-counter-by-fatsecret/id347184248?mt=8">
+                            <img src="https://a.ftscrt.com/static/images/mobi/ios/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" height="34">
+                        </a>&nbsp;&nbsp;
+                        <a target="blank" href="https://play.google.com/store/apps/details?id=com.fatsecret.android">
+                            <img src="https://a.ftscrt.com/static/images/mobi/android/en_get_2.svg" height="34">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <table style="width:100%;border-collapse:collapse">
+            <tbody><tr>
+                <td width="50%">&nbsp;</td>
+                <td valign="bottom" style="padding:0px" rowspan="2"><img src="https://a.ftscrt.com/static/images/splash/Logo_Tab_Reverse_Green.png" style="vertical-align:bottom"></td>
+                <td width="50%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="greenBar">&nbsp;</td>
+                <td class="greenBar">&nbsp;</td>
+            </tr>
+        </tbody></table>
+    </div>
     <div class="greenWall">
-        <div class="greenSection">
-            <div class="greenSectionInnerContent">
+        <div class="mainSection">
+            <div class="mainSectionInnerContent">
                 <h2 class="white headerText noStyle">Superb 100% FREE calorie counter apps</h2>
                 <p class="white secondaryText noStyle" style="padding-top:14px">Over 35 million people have lost weight with FatSecret. Start your weight loss journey today and access the world's highest quality food and nutrition database.</p>
             </div>
@@ -75,22 +133,23 @@
         <div style="padding-top:30px">
             <span class="colorBar whiteWall" style="width:100%;text-align:center"><img class="transLogo" src="https://a.ftscrt.com/static/images/splash/Logo_Tab_Green.png"></span> 
         </div>
-    </div> 
+    </div>
 
     <div class="whiteWall">
-        <div class="whiteSection">
-            <div class="whiteSectionInnerContent">
+        <div class="mainSection">
+            <div class="mainSectionInnerContent">
                 <div class="inlineElement" style="width:40%">
-                    <h2 class="whiteBody" style="padding-bottom:14px">Why FatSecret?</h2>
+                    <h2 class="noStyle headerText green" style="padding-bottom:14px">Why FatSecret?</h2>
                     <ul class="copyText">
                         <li>100% free, nothing to pay</li>
+                        
                         <li>Fastest, easiest to use <a class="bold" href="#Apps">calorie counter apps</a></li>
                         <li>Supportive community</li>
                         <li>Proven success</li>
                     </ul>
                 </div>
                 <div class="inlineElement" style="width:55%; padding-left:2%;vertical-align:top">
-                    <h2 class="whiteBody2" style="padding-bottom:14px">How FatSecret Works!</h2>
+                    <h2 class="noStyle headerText green" style="padding-bottom:14px">How FatSecret Works!</h2>
                     <p class="copyText">
                     People who track food achieve more than double the average weight loss and members lose weight 3x faster when doing it with friends.  FatSecret combines these to create the most powerful solution for healthy, sustainable weight loss.
                     </p>
@@ -102,10 +161,10 @@
         </div>
     </div>
 
-    <div class="greenWall2">
-        <div class="greenSection2">
-            <div class="greenSection2InnerContent">
-                <h2 class="headerText white noStyle" style="font-size: 43px;">All the tools to achieve your diet goals</h2>
+    <div class="greenWall">
+        <div class="mainSection">
+            <div class="mainSectionInnerContent">
+                <h2 class="headerText white noStyle">All the tools to achieve your diet goals</h2>
                 <div class="tertiaryText inlineElement" style="width:47%;vertical-align: top">
                     <div class="topPadding">
                         <img class="inlineElement" src="https://a.ftscrt.com/static/images/splash/Check_Tick.png">
@@ -136,17 +195,19 @@
                 </div>
             </div>
         </div>
+        <div style="padding-top:30px">
+            <span class="colorBar blueWall" style="width:100%;text-align:center"><img class="transLogo" src="https://a.ftscrt.com/static/images/splash/Logo_Tab_Green.png"></span> 
+        </div>
     </div>
-    <div id="line"></div>
 
     <div id="Apps" class="blueWall">
         <div class="mainSection">
-            <div class="blueWallSectionInnerContent">
-                <h2 class="blueh2">Get Connected with FatSecret</h2>
+            <div class="mainSectionInnerContent">
+                <h2 class="headerText white noStyle">Get Connected with FatSecret</h2>
                 <div class="inlineElement" style="float:left;width:55%;padding-top:15px">
-                    <div>
-                        <p>The perfect application for keeping track of your food, exercise and weight while on-the-go</p>
-                        <div>
+                    <div class="secondaryText white">
+                        <p class="secondaryText noStyle white">The perfect application for keeping track of your food, exercise and weight while on-the-go</p>
+                        <div class="topPadding">
                             <img style="vertical-align:middle" class="inlineElement" src="https://a.ftscrt.com/static/images/splash/Check_Tick.png">
                             <p class="noStyle inlineElement" style="width:70%">iPhone, iPod Touch and iPad</p>
                         </div>
@@ -155,7 +216,7 @@
                             <p class="noStyle inlineElement" style="width:70%">Android Phones and Tablets</p>
                         </div>
                     </div>
-                    <div class="inlineElement1" style="height:48px;padding:56px 0px">
+                    <div class="inlineElement" style="height:48px;padding:56px 0px">
                         <a target="blank" href="https://itunes.apple.com/in/app/calorie-counter-by-fatsecret/id347184248?mt=8">
                             <img src="https://a.ftscrt.com/static/images/mobi/ios/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" height="48">
                         </a>
@@ -170,15 +231,15 @@
                 </div>
             </div>
         </div>
-        
+        <div style="padding-top:10px">
+            <span class="colorBar blackWall" style="width: 100%; text-align: center; background-position: left 776.8px;"><img class="transLogo" src="https://a.ftscrt.com/static/images/splash/Logo_Tab_Blue.png"></span> 
+        </div>
     </div>
-    
-    <div id="black"> </div>
-    
-    <div class="blackWall" style="background-position: left 1708.8px;">
+
+    <div class="blackWall" style="background-position: left 1928.8px;">
 	
-        <div class="blackSection">
-            <div class="blackSectionInnerContent">
+        <div class="mainSection">
+            <div class="mainSectionInnerContent">
                 <h2 class="headerText white noStyle">Sign Up Now!</h2>
                 <div class="inlineElement" style="width:48%;vertical-align:top;padding-top:24px">
                     <p class="noStyle white secondaryText">FatSecret is 100% free</p>
@@ -186,7 +247,7 @@
                 <div class="inlineElement topPadding" style="width:48%;padding-left:3%">
                     <input name="ctl00$ctl04$Email2" type="text" id="ctl04_Email2" class="email" placeholder="Email Address">
                     <button type="button" class="greenButton" id="EmailRegButton2">Start Now</button>
-                    <p id="ptag2" style="padding-bottom:4px">Already a Member? <a href="/Auth.aspx?pa=s" class="white"><strong>Sign In</strong></a></p> 
+                    <p class="white copyText topPadding" style="padding-bottom:4px">Already a Member? <a href="C:\Users\krish\Desktop\Project-code\amasing-move-2303\sign in .html" class="white"><strong>Sign In</strong></a></p> 
                 </div>
             </div>
         </div>
@@ -197,7 +258,7 @@
     </div>
 
     <div class="whiteWall">
-        <div class="lastSection" style="padding:61px 0px 0px 0px !important;width:382px">
+        <div class="mainSection" style="padding:61px 0px 0px 0px !important;width:382px">
              <a href="/Default.aspx"><img alt="FatSecret" src="https://a.ftscrt.com/static/images/splash/FS_Logo_SplashScreen_Green.png" border="0"></a>
         </div>
         <div class="footerPanel">
@@ -259,9 +320,5 @@
     </div>
         </div>
     </div>
-
-    
-    
 </body>
 </html>
-
