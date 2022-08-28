@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#main {
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+    background-color: coral;
+    margin: auto;
+}
+#main-section{
+    width:60%;
+    margin: auto;
+    height: 600px;
+    border: 1px solid red;
+    background-color: #a6adba;
+}
+img{
+    width:400px;
+    height: 100px;
+    color: green;
+}
+#facebook{
+    width:400px;
+    height: 40px;
+    color: white;
+    background-color: #3766B8;
+    margin-bottom: 16px; 
+    background-image: url(https://static.fatsecret.com/static/images/social/logo_facebook.svg);
+    background-position-x: 8px;
+    background-position-y: 8px; 
+    text-indent: 32px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: 'roboto',sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    
+}
+#google{
+    width:400px;
+    height: 40px;
+    color: white;
+    background-color: #4285f4;
+    margin-bottom: 16px; 
+    background-image: url(https://a.ftscrt.com/static/images/social/logo_google.svg);
+    background-position-x: 1px;
+    background-position-y: 1px; 
+    text-indent: 40px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: 'roboto',sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px; 
+    border: none; 
+}
+div{
+    margin-top: 20px;
+}
+p{
+    color: white;
+    margin-top: -5px;
+    font-size: 20px;
+}
+#input1{
+    width: 390px;
+    height:40px;
+    color:black;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+#input2{
+    width: 200px;
+    height:40px;
+    color:black;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+button{
+    width:185px;
+    height: 45px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding-left: 30px;
+    font-size: 20px;
+}
+a{
+    margin-left: 200px;
+}
+h2{
+    color: white;
+    margin-left: 100px;
+}
+.p1{
+    margin-left: 170px;
+}
+#footer{
+    width: 100%;
+    height: 200px;
+    border: 1px solid red;
+    background-color: white;
+}
+.app{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#margin{
+    border: 1px solid green;
+    display: block;
+    margin: auto;
+    margin-left: 400px;
+}
+
